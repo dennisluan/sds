@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'durable_decorator', '~> 0.2.0'
   s.add_dependency 'solidus_api'
   s.add_dependency 'solidus_backend'
-  s.add_dependency 'solidus_core',        '~> 1.1.0'
+  s.add_dependency 'solidus_core',        '1.1.1'
 
   s.add_development_dependency 'capybara',           '~> 2.2'
   s.add_development_dependency 'coffee-rails'
