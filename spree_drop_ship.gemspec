@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'durable_decorator', '~> 0.2.0'
-  s.add_dependency 'solidus_api'
-  s.add_dependency 'solidus_backend'
-  s.add_dependency 'solidus_core',        '~> 1.1.1'
+  s.add_dependency 'spree_api'
+  s.add_dependency 'spree_backend'
+  s.add_dependency 'spree_core'
 
   s.add_development_dependency 'capybara',           '~> 2.2'
   s.add_development_dependency 'coffee-rails'
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sass-rails',         '~> 4.0.2'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'shoulda-matchers'
-  s.add_development_dependency 'solidus_auth_devise'
-  s.add_development_dependency 'solidus_sample'
+  s.add_development_dependency 'spree_auth_devise'
+  s.add_development_dependency 'spree_sample'
   s.add_development_dependency 'sqlite3'
 end
